@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+  gap: 20px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2,100px);
+  gap: 30px;
+}
+.input{
+  width: 50px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+}
+.inputDiv{
+  display: flex;
+  align-items: center;
+}
+.incrementdiv{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+  margin: auto;
+}
